@@ -22,7 +22,7 @@ Le client a une idée très précise de ce qu'il souhaite. Il tient particulièr
 - [ ] Utilisez les tags, certains articles devront appartenir à plusieurs catégories.
 - [ ] Le système de pagination doit fonctionner.
 - [ ] La single page doit avoir un menu hamburger.
-- [ ] Intégrez-y un moteur de recherche. Pour la recheche, une fenêtre modale devra apparaître lorsqu'on l'on cliquera sur la loupe.
+- [ ] Intégrez-y un moteur de recherche. Pour la recherche, une fenêtre modale devra apparaître lorsqu'on l'on cliquera sur la loupe.
 - [x]  Installez des plugins comme Yoast SEO pour le référencement.
 - [ ]  PAS DE BUG, tout doit fonctionner.
 
