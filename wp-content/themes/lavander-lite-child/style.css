@@ -6,3 +6,13 @@ Author URI: http://justfreethemes.com/demo/?theme=Lavander%20Lite
 Template: lavander-lite
 Version: 1.0
 */
+
+@font-face {
+    font-family: ‘CrimsonText‘;
+src: url(‘crimsontext-regular-webfont.eot’);
+src: url(‘crimsontext-regular-webfont.eot?#iefix’) format(’embedded-opentype’),
+url(‘crimsontext-regular-webfont.woff2′) format(‘woff2’),
+url(‘crimsontext-regular-webfont.woff’) format(‘woff’),
+url(‘crimsontext-regular-webfont.ttf’) format(‘truetype’),
+url(‘crimsontext-regular-webfont.svg#svgwpf‘) format(‘svg’);
+}
