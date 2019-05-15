@@ -34,5 +34,9 @@ body {
 }
 
 a {
-    font-family: 'Open Sans';
+  font-family: "Open Sans";
+}
+
+.pagenav .menu {
+  display: inline;
 }
