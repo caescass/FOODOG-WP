@@ -32,3 +32,7 @@ body {
   font-family: "Crimson Text";
   background-color: red;
 }
+
+a {
+    font-family: 'Open Sans';
+}
