@@ -5,3 +5,7 @@ Author: Cassandra - Soufian - Oliver - Nicolas
 Template: ruby
 Version: 2.1.1
 */
+
+.site-title {
+    font-family: "Crimson Text";
+}
