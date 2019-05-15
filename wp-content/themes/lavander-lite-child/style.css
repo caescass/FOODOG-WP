@@ -8,24 +8,27 @@ Version: 1.0
 */
 
 @font-face {
-    font-family: ‘Crimson Text‘;
-src: url(‘crimsontext-regular-webfont.eot’);
-src: url(‘crimsontext-regular-webfont.eot?#iefix’) format(’embedded-opentype’),
-url(‘crimsontext-regular-webfont.woff2′) format(‘woff2’),
-url(‘crimsontext-regular-webfont.woff’) format(‘woff’),
-url(‘crimsontext-regular-webfont.ttf’) format(‘truetype’),
-url(‘crimsontext-regular-webfont.svg#svgcrimsontext‘) format(‘svg’);
+  font-family: ‘Crimson Text‘;
+  src: url(‘crimsontext-regular-webfont.eot’);
+  src: url(‘crimsontext-regular-webfont.eot?#iefix’) format(’embedded-opentype’),
+    url(‘crimsontext-regular-webfont.woff2′) format(‘woff2’),
+    url(‘crimsontext-regular-webfont.woff’) format(‘woff’),
+    url(‘crimsontext-regular-webfont.ttf’) format(‘truetype’),
+    url(‘crimsontext-regular-webfont.svg#svgcrimsontext‘) format(‘svg’);
 }
 
 /*Mes titres*/
 
-h1, h2, h3, a {
-    font-family: 'Crimson Text'!important;
-
+h1,
+h2,
+h3,
+a {
+  font-family: "Crimson Text" !important;
 }
 
 /*Le lien googlefont*/
 
 body {
-    font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text";
+  background-color: red;
 }
