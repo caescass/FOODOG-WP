@@ -129,7 +129,7 @@
 							<?php
 							$logo_in_menu = get_theme_mod( 'ruby_logo_in_menu', 'logo' );
 							if ( $logo_in_menu != 'none' ){ ?>
-								<div class="col-sm-2">
+								<div class="col-sm-12">
 									<?php if ( $logo_in_menu == 'logo' ) {
 											if ( $custom_logo != '' ) {
 												echo $custom_logo;

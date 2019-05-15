@@ -6,6 +6,24 @@ Template: ruby
 Version: 2.1.1
 */
 
-.site-title {
+/*Mon titre principal*/
+.site-branding, .site-title {
     font-family: "Crimson Text";
+    font-size: 2.5em;
+    color: black;
+}
+
+.site-branding, .site-title a {
+    color: black;
+}
+
+/*Mon menu*/
+#menu-nav {
+    font-family: "Open Sans";
+}
+
+nav
+{
+float: left;
+margin-left: 38%;
 }

@@ -131,7 +131,7 @@
 							<?php
 							$logo_in_menu = get_theme_mod( 'ruby_logo_in_menu', 'logo' );
 							if ( $logo_in_menu != 'none' ){ ?>
-								<div class="col-sm-2">
+								
 									<?php if ( $logo_in_menu == 'logo' ) {
 											if ( $custom_logo != '' ) {
 												echo $custom_logo;
@@ -140,8 +140,8 @@
 										if ( $logo_in_menu == 'site-title' ) { ?>
 											<a class="logo-site-title" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 									<?php	} ?>
-								</div>
-								<div class="col-sm-10">
+								
+								<div class="col-sm-12">
 							<?php } else { ?>
 								<div class="col-sm-12">
 							<?php }
