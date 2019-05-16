@@ -36,14 +36,16 @@ body {
 }
 .header-top-nav, .header-nav-wrapper, .search-menu .search-form {
     background-color: #ffff!important;
+    text-align: center;
 }
 
-nav
-{
-float: left;
-margin-left: 38%;
+.main-navigation ul {
+    display: inline-block;
 }
 
+#site-navigation .col-sm-12 .navbar-toggleable-xs {
+    float:none;
+}
 /*Article populaires*/
 
 article, article.tag-success, .widget {
