@@ -5,6 +5,11 @@ Author: Cassandra - Soufian - Oliver - Nicolas
 Template: ruby
 Version: 2.1.1
 */
+/*Body*/
+
+body {
+    background-color: #ffff;
+}
 
 /*Mon titre principal*/
 .site-branding, .site-title {
@@ -12,7 +17,9 @@ Version: 2.1.1
     font-size: 2.5em;
     color: black;
 }
-
+.site-header {
+    background-color: #fff!important;
+}
 .site-branding, .site-title a {
     color: black;
 }
@@ -22,8 +29,23 @@ Version: 2.1.1
     font-family: "Open Sans";
 }
 
+.header-nav-wrapper {
+    box-shadow: 0px 0px;
+    -webkit-box-shadow : 0px 0px;
+    background-color: #ffff!important;
+}
+.header-top-nav, .header-nav-wrapper, .search-menu .search-form {
+    background-color: #ffff!important;
+}
+
 nav
 {
 float: left;
 margin-left: 38%;
+}
+
+/*Article populaires*/
+
+article, article.tag-success, .widget {
+    border: 0px;
 }
