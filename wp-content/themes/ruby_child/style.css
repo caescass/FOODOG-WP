@@ -51,3 +51,12 @@ body {
 article, article.tag-success, .widget {
     border: 0px;
 }
+
+.site-footer .site-info{
+    background-color: rgb(70, 68, 68) !important;
+}
+
+.under-footer{
+    height: 80px;
+    background-color: rgb(32, 32, 32);
+}
