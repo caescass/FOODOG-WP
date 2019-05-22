@@ -14,19 +14,31 @@ body {
 /*Mon titre principal*/
 .site-branding, .site-title {
     font-family: "Crimson Text";
-    font-size: 2.5em;
-    color: black;
+    
 }
 .site-header {
     background-color: #fff!important;
 }
-.site-branding, .site-title a {
+/*Logo Food-dog*/
+.logo_foodog, .site-title a {
     color: black;
+    font-size: 2em;
+}
+
+
+.logo_foodog .site-title {
+    font-weight: normal;
+    margin: 0px;
 }
 
 /*Mon menu*/
 #menu-nav {
     font-family: "Open Sans";
+}
+
+.header-top-nav {
+    box-shadow: 0px 0px;
+    border-bottom: 0px;
 }
 
 .header-nav-wrapper {
@@ -51,8 +63,31 @@ body {
     padding-top: 15px;
     color: black;
 }
+
+.logo-wrapper {
+    margin: 0px auto 0px;
+}
+
+/*Search*/
+.search-menu .search-form {
+    box-shadow: 0px 0px;
+}
+
+/*Header*/
+
+#masthead {
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
 /*Article populaires*/
 
 article, article.tag-success, .widget {
     border: 0px;
+}
+h2, h3, h4, h5, h6, h2 a, h2.entry-title a, h3 a, h4 a, h5 a, h6 a {
+    color: #4b4f54!important;
+    font-weight: 700;
+}
+h2.entry-title {
+    font-weight: bolder;
 }

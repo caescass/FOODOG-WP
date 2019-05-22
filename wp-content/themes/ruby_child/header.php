@@ -40,12 +40,24 @@
 		<div class="header-top-nav">
 			<div class="container">
 				<div class="row">
-					<div class="social-icons col-sm-6">
+					<div class="social-icons col-sm-4">
 						<?php if ( $social_icons_in_header ) {
 							ruby_social_icons();
 						} ?>
 					</div><!-- .social-icons -->
-					<nav id="top-navigation" class="main-navigation col-sm-6" role="navigation">
+					<div class="logo_foodog col-sm-4">
+										<?php if ( is_front_page() && is_home() ) : ?>
+											<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+										<?php else : ?>
+											<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+										<?php endif;
+										$description = get_bloginfo( 'description', 'display' );
+										if ( $description || is_customize_preview() ) : ?>
+											<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+										<?php
+										endif; ?>
+					</div>
+					<nav id="top-navigation" class="main-navigation col-sm-4" role="navigation">
 						<?php if( $has_header_nav_menu ){
 							ruby_top_menu(); // Top navigation
 						} ?>
@@ -73,25 +85,13 @@
 								<?php }
 
 								if ( $header_show == 'header-text' || $header_show == 'header-both' ) { ?>
-									<div class="site-branding">
-										<?php if ( is_front_page() && is_home() ) : ?>
-											<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-										<?php else : ?>
-											<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-										<?php endif;
-										$description = get_bloginfo( 'description', 'display' );
-										if ( $description || is_customize_preview() ) : ?>
-											<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-										<?php
-										endif; ?>
-									</div><!-- .site-branding -->
+									<!-- .site-branding -->
 								<?php
 								} else { ?>
 									<h1 class="site-title screen-reader-text"><?php bloginfo( 'name' ); ?></h1>
 								<?php } ?>
 							</div><!-- .col-xs-12 -->
-						</div><!-- .row -->
-					</div>
+					
 				<?php
 				}
 				$left_header_text = get_theme_mod( 'ruby_left_header_text', '' );
